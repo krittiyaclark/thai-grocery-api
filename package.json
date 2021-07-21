@@ -1,0 +1,21 @@
+{
+  "name": "thai-grocery-api",
+  "version": "1.0.0",
+  "description": "Thai grocery for an e-commerce website with products and prices.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "thai",
+    "grocery",
+    "api"
+  ],
+  "author": "Krittiya Clark",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
