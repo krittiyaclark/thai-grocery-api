@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+const { request, response } = require('express')
 const PORT = 8000
 
 app.use(cors())
@@ -150,6 +151,11 @@ app.get(
 		response.json(thaiGroceries[thaiGroceriesItem])
 	}
 )
+
+// All Thai Groceries
+app.get('/api/thai-grocery-product', (request, response) => {
+	response.json(thaiGroceries)
+})
 
 // process.env.PORT for Heroku
 app.listen(process.env.PORT || PORT, () => {

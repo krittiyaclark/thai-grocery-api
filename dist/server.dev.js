@@ -10,6 +10,10 @@ var app = express();
 
 var cors = require('cors');
 
+var _require = require('express'),
+    request = _require.request,
+    response = _require.response;
+
 var PORT = 8000;
 app.use(cors());
 var thaiGroceries = {
@@ -136,6 +140,10 @@ app.get('/api/thai-grocery-product/:thaiGroceriesItemName', function (request, r
   }
 
   response.json(thaiGroceries[thaiGroceriesItem]);
+}); // All Thai Groceries
+
+app.get('/api/thai-grocery-product', function (request, response) {
+  response.json(thaiGroceries);
 }); // process.env.PORT for Heroku
 
 app.listen(process.env.PORT || PORT, function () {
