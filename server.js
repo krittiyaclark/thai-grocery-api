@@ -141,7 +141,7 @@ app.get(
 	}
 )
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
 	console.log(`Server is running ${PORT}`)
 })
 // app.get('/api/thai-grocery-marketplace', (request, response) => {
