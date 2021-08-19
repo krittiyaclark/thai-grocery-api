@@ -1,6 +1,6 @@
-# Thai grocery API
+# Thai Grocery API
 
-# What is the Thai grocery API?
+# What is the Thai Grocery API?
 
 This API is a collection of Thai groceries that are branded with Thai grocery
 products that include product name, brand, info, image, ingredients, weight, and
