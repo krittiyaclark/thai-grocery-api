@@ -14,6 +14,7 @@ var PORT = 8000;
 app.use(cors());
 var thaiGroceries = {
   'thai coconut milk': {
+    product: 'thai coconut milk',
     brand: 'chaokoh',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'coconut extract, water, citric acid (as antioxidant), sodium metabisulfite (as perservative). Unsweetened.',
@@ -24,6 +25,7 @@ var thaiGroceries = {
     price: '3.50'
   },
   'green curry paste': {
+    product: 'green curry paste',
     brand: 'maesri',
     info: 'Maesri Brand is recognized in Thailand as a high quality export product with rich taste and authentic flavor.',
     ingredients: 'Fresh Chilli Pepper, Garlic, Chinese Ginger, Shallot, Lemongrass, Salt, Sweet Basil, Kaffir Lime, Sugar, Spices (Coriander Seeds, Pepper, Cumin, Cardamom, Turmeric), Galangal, Fresh Coriander.',
@@ -34,6 +36,7 @@ var thaiGroceries = {
     price: '3.99'
   },
   'tom yum soup': {
+    product: 'tom yum soup',
     brand: 'aroy',
     info: 'This tom yum soup is made with an authentic, Thai Taste, a strong blend of both sour and spicy. It is restaurant quality.',
     ingredients: 'Lemongrass (24%), Refined Soybean Oil, Shallot, Sugar, Tamarind Paste, Dried Red Chilli, Galangal, Garlic, Salt, Acidity Regulator (Citric Acid (E330)), Fish Sauce (Anchovy, Salt, Water), Flavour Enhancer (Monosodium Glutamate (E621)), Shrimp Powder, Kaffir Lime Peel.',
@@ -44,6 +47,7 @@ var thaiGroceries = {
     price: '5.39'
   },
   'red curry soup': {
+    product: 'red curry soup',
     brand: 'maeSri',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Thai curry soup packed with the essence of turmeric, lemongrass, curry powder, bay leaves, and other herbs and spices. Karee curry is influenced by Indian merchants that traveled to Thailand hundreds of years ago.',
@@ -54,6 +58,7 @@ var thaiGroceries = {
     price: '3.99'
   },
   'Koh-Kae Peanut Snack Coconut Flavor': {
+    product: 'Koh-Kae Peanut Snack Coconut Flavor',
     brand: 'Koh Kae',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: ' Original Coconut Flavor: peanuts, wheat flour, sugar, coconut oil, iodized salt, coconut cream, sweetened condensed creamer, rising agent ammonium bicarbonate, sweetener (acesulfame potassium).',
@@ -64,6 +69,7 @@ var thaiGroceries = {
     price: '7.95'
   },
   'Thai Sweet Chilli Sauce': {
+    product: 'Thai Sweet Chilli Sauce',
     brand: 'Mae Ploy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Sugar, water, pickled red chilli, vinegar, garlic, salt, xanthan gum. No preservatives and no artificial coloring. Product of Thailand.',
@@ -74,6 +80,7 @@ var thaiGroceries = {
     price: '4.40'
   },
   'Soy sauce, thin (light)': {
+    product: 'Soy sauce, thin (light)',
     brand: 'Healthy Boy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Soy bean, wheat, salt, sugar, msg, preservatives 0.1%, artificial color.',
@@ -84,6 +91,7 @@ var thaiGroceries = {
     price: '5.29'
   },
   'Sriracha Sauce': (_SrirachaSauce = {
+    product: 'Sriracha Sauce',
     brand: 'Huy Fong',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Chile, sugar, garlic, salt, distilled vinegar, potassium sorbate and sodium bisulfite as preservatives, and xanthan gum.',
@@ -91,6 +99,7 @@ var thaiGroceries = {
     imageCredit: 'ImportFood Thai Supermarket'
   }, _defineProperty(_SrirachaSauce, "imageCredit", 'Brand: Chaokoh'), _defineProperty(_SrirachaSauce, "size", '13.5 oz'), _defineProperty(_SrirachaSauce, "weight", '17 oz'), _defineProperty(_SrirachaSauce, "price", '4.29'), _SrirachaSauce),
   'Mushroom Soy Sauce': {
+    product: 'Mushroom Soy Sauce',
     brand: 'Healthy Boy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Soybean, mushroom, salt water, wheat flour, sugar, sodium benzoate 0.1% as preservative.',
@@ -101,6 +110,7 @@ var thaiGroceries = {
     price: '9.89'
   },
   unknown: {
+    product: 'unknown',
     brand: 'unknown',
     info: 'unknown',
     ingredients: 'unknown',

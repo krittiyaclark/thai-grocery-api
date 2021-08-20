@@ -7,6 +7,7 @@ app.use(cors())
 
 let thaiGroceries = {
 	'thai coconut milk': {
+		product: 'thai coconut milk',
 		brand: 'chaokoh',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -18,6 +19,7 @@ let thaiGroceries = {
 		price: '3.50',
 	},
 	'green curry paste': {
+		product: 'green curry paste',
 		brand: 'maesri',
 		info: 'Maesri Brand is recognized in Thailand as a high quality export product with rich taste and authentic flavor.',
 		ingredients:
@@ -29,6 +31,7 @@ let thaiGroceries = {
 		price: '3.99',
 	},
 	'tom yum soup': {
+		product: 'tom yum soup',
 		brand: 'aroy',
 		info: 'This tom yum soup is made with an authentic, Thai Taste, a strong blend of both sour and spicy. It is restaurant quality.',
 		ingredients:
@@ -40,6 +43,7 @@ let thaiGroceries = {
 		price: '5.39',
 	},
 	'red curry soup': {
+		product: 'red curry soup',
 		brand: 'maeSri',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -51,6 +55,7 @@ let thaiGroceries = {
 		price: '3.99',
 	},
 	'Koh-Kae Peanut Snack Coconut Flavor': {
+		product: 'Koh-Kae Peanut Snack Coconut Flavor',
 		brand: 'Koh Kae',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -63,6 +68,7 @@ let thaiGroceries = {
 		price: '7.95',
 	},
 	'Thai Sweet Chilli Sauce': {
+		product: 'Thai Sweet Chilli Sauce',
 		brand: 'Mae Ploy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -75,6 +81,7 @@ let thaiGroceries = {
 		price: '4.40',
 	},
 	'Soy sauce, thin (light)': {
+		product: 'Soy sauce, thin (light)',
 		brand: 'Healthy Boy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -87,6 +94,7 @@ let thaiGroceries = {
 		price: '5.29',
 	},
 	'Sriracha Sauce': {
+		product: 'Sriracha Sauce',
 		brand: 'Huy Fong',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -100,6 +108,7 @@ let thaiGroceries = {
 		price: '4.29',
 	},
 	'Mushroom Soy Sauce': {
+		product: 'Mushroom Soy Sauce',
 		brand: 'Healthy Boy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -111,6 +120,7 @@ let thaiGroceries = {
 		price: '9.89',
 	},
 	unknown: {
+		product: 'unknown',
 		brand: 'unknown',
 		info: 'unknown',
 		ingredients: 'unknown',
