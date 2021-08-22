@@ -16,6 +16,7 @@ JSON
 
 ```
 {
+    "product": "thai coconut milk",
     "brand": "chaokoh",
     "info": "PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.",
     "ingredients": "coconut extract, water, citric acid (as antioxidant), sodium metabisulfite (as perservative). Unsweetened.",
