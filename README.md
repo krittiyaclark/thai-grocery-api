@@ -42,7 +42,7 @@ JSON
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**Thai grocery API - Client-Side:**
+**Thai Grocery API - Client-Side:**
 https://github.com/krittiyaclark/thai-grocery-client-side
 
 **Kissane Associates:**
