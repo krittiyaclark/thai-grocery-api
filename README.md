@@ -12,7 +12,7 @@ pricing. I intend to add more products in the future.
 **Path**
 
 ```
-api/thai-grocery-product/
+api/thai-grocery-product/:thaiGroceriesItemName
 ```
 
 **Making a request** To make a request for the product, you'd append the product
