@@ -32,7 +32,8 @@ JSON
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**Thai grocery API:** https://github.com/krittiyaclark/thai-grocery-api
+**Thai grocery API - Client-Side:**
+https://github.com/krittiyaclark/thai-grocery-client-side
 
 **Kissane Associates:**
 https://github.com/VT-Web-Development/gatsby-kissaneassociates
