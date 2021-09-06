@@ -38,5 +38,8 @@ https://github.com/krittiyaclark/thai-grocery-client-side
 **Kissane Associates:**
 https://github.com/VT-Web-Development/gatsby-kissaneassociates
 
+**Pho Thai Restaurant:**
+https://github.com/VT-Web-Development/gatsby-Pho-Thai-Express-restaurant
+
 **Vermont Construction Company:**
 https://github.com/VT-Web-Development/VT-Web-Development-gatsby-vermont-construction-company
