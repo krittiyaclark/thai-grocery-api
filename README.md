@@ -1,4 +1,4 @@
-# Thai grocery api
+# Thai grocery API
 
 This API is a collection of Thai grocery with Thai grocery product with brand,
 info, ingredients, weight, and price.
@@ -27,3 +27,15 @@ JSON
     "price": "3.50"
 }
 ```
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**Thai grocery API:** https://github.com/krittiyaclark/thai-grocery-api
+
+**Kissane Associates:**
+https://github.com/VT-Web-Development/gatsby-kissaneassociates
+
+**Vermont Construction Company:**
+https://github.com/VT-Web-Development/VT-Web-Development-gatsby-vermont-construction-company
