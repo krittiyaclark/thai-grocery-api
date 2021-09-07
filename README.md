@@ -1,15 +1,25 @@
 # Thai grocery API
 
-This API is a collection of Thai grocery with Thai grocery product with brand,
-info, ingredients, weight, and price.
+# What is the Thai grocery API?
 
-**Fetch**
-[https://thai-grocery-api.herokuapp.com/api/thai-grocery-product/](https://thai-grocery-api.herokuapp.com/api/thai-grocery-product/)
+This API is a collection of Thai groceries that are branded with Thai grocery
+products that include product name, brand, info, image, ingredients, weight, and
+pricing. I intend to add more products in the future.
+
+**Base URL**
+[https://thai-grocery-api.herokuapp.com](https://thai-grocery-api.herokuapp.com)
 
 **Path**
 
 ```
 api/thai-grocery-product/
+```
+
+**Making a request** To make a request for the product, you'd append the product
+index path to the base url e.g.
+
+```
+https://thai-grocery-api.herokuapp.com/api/thai-grocery-product/product
 ```
 
 JSON
