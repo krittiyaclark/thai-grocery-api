@@ -10,10 +10,6 @@ var app = express();
 
 var cors = require('cors');
 
-var _require = require('express'),
-    request = _require.request,
-    response = _require.response;
-
 var PORT = 8000;
 app.use(cors());
 var thaiGroceries = {
