@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors')
 const PORT = 8000
 
+const kebabCase = require('lodash.kebabcase')
 app.use(cors())
 
 let thaiGroceries = {
@@ -132,6 +133,15 @@ let thaiGroceries = {
 	},
 }
 
+const groceryStore = {}
+
+// Using the kebabCase
+Object.keys(thaiGroceries).forEach((product) => {
+	groceryStore[kebabCase(product)] = {
+		...thaiGroceries[product],
+	}
+})
+
 // Response to locallhost 8000
 app.get('/', (request, response) => {
 	response.sendFile(__dirname + '/index.html')
@@ -160,6 +170,3 @@ app.get('/api/thai-grocery-product', (request, response) => {
 app.listen(process.env.PORT || PORT, () => {
 	console.log(`Server is running ${PORT}`)
 })
-// app.get('/api/thai-grocery-marketplace', (request, response) => {
-//     response.json
-// })
