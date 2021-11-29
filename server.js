@@ -151,19 +151,18 @@ app.get('/', (request, response) => {
 app.get(
 	'/api/thai-grocery-product/:thaiGroceriesItemName',
 	(request, response) => {
-		const thaiGroceriesItem = request.params.thaiGroceriesItemName.toLowerCase()
-		if (thaiGroceries[thaiGroceriesItem]) {
-			response.json(thaiGroceries[thaiGroceriesItem])
-		} else {
-			response.json(thaiGroceries['unknown'])
+		const thaiGroceriesItem = request.params.thaiGroceriesItemName
+		if (!groceryStore[thaiGroceriesItem]) {
+			response.json(groceryStore['unknown'])
 		}
-		response.json(thaiGroceries[thaiGroceriesItem])
+
+		return response.json(groceryStore[thaiGroceriesItem])
 	}
 )
 
 // All Thai Groceries
 app.get('/api/thai-grocery-product', (request, response) => {
-	response.json(thaiGroceries)
+	return response.json(thaiGroceries)
 })
 
 // process.env.PORT for Heroku

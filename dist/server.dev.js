@@ -139,19 +139,17 @@ app.get('/', function (request, response) {
 }); // Response to the other route
 
 app.get('/api/thai-grocery-product/:thaiGroceriesItemName', function (request, response) {
-  var thaiGroceriesItem = request.params.thaiGroceriesItemName.toLowerCase();
+  var thaiGroceriesItem = request.params.thaiGroceriesItemName;
 
-  if (thaiGroceries[thaiGroceriesItem]) {
-    response.json(thaiGroceries[thaiGroceriesItem]);
-  } else {
-    response.json(thaiGroceries['unknown']);
+  if (!groceryStore[thaiGroceriesItem]) {
+    response.json(groceryStore['unknown']);
   }
 
-  response.json(thaiGroceries[thaiGroceriesItem]);
+  return response.json(groceryStore[thaiGroceriesItem]);
 }); // All Thai Groceries
 
 app.get('/api/thai-grocery-product', function (request, response) {
-  response.json(thaiGroceries);
+  return response.json(thaiGroceries);
 }); // process.env.PORT for Heroku
 
 app.listen(process.env.PORT || PORT, function () {
