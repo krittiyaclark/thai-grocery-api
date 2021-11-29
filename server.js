@@ -54,8 +54,8 @@ let thaiGroceries = {
 		weight: '7.7 oz',
 		price: '3.99',
 	},
-	'Koh-Kae Peanut Snack Coconut Flavor': {
-		product: 'Koh-Kae Peanut Snack Coconut Flavor',
+	'koh kae peanut snack coconut flavor': {
+		product: 'koh kae peanut snack coconut flavor',
 		brand: 'Koh Kae',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -67,8 +67,8 @@ let thaiGroceries = {
 		weight: '8.11 oz',
 		price: '7.95',
 	},
-	'Thai Sweet Chilli Sauce': {
-		product: 'Thai Sweet Chilli Sauce',
+	'thai sweet chilli sauce': {
+		product: 'thai sweet chilli sauce',
 		brand: 'Mae Ploy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -80,8 +80,8 @@ let thaiGroceries = {
 		weight: '10 oz',
 		price: '4.40',
 	},
-	'Soy sauce, thin (light)': {
-		product: 'Soy sauce, thin (light)',
+	'soy sauce, thin light': {
+		product: 'soy sauce, thin light',
 		brand: 'Healthy Boy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -93,8 +93,8 @@ let thaiGroceries = {
 		weight: '10 oz',
 		price: '5.29',
 	},
-	'Sriracha Sauce': {
-		product: 'Sriracha Sauce',
+	'sriracha sauce': {
+		product: 'sriracha sauce',
 		brand: 'Huy Fong',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:
@@ -107,8 +107,8 @@ let thaiGroceries = {
 		weight: '17 oz',
 		price: '4.29',
 	},
-	'Mushroom Soy Sauce': {
-		product: 'Mushroom Soy Sauce',
+	'mushroom soy sauce': {
+		product: 'mushroom soy sauce',
 		brand: 'Healthy Boy',
 		info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
 		ingredients:

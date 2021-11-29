@@ -1,6 +1,6 @@
 "use strict";
 
-var _SrirachaSauce;
+var _srirachaSauce;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -57,8 +57,8 @@ var thaiGroceries = {
     weight: '7.7 oz',
     price: '3.99'
   },
-  'Koh-Kae Peanut Snack Coconut Flavor': {
-    product: 'Koh-Kae Peanut Snack Coconut Flavor',
+  'koh kae peanut snack coconut flavor': {
+    product: 'koh kae peanut snack coconut flavor',
     brand: 'Koh Kae',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: ' Original Coconut Flavor: peanuts, wheat flour, sugar, coconut oil, iodized salt, coconut cream, sweetened condensed creamer, rising agent ammonium bicarbonate, sweetener (acesulfame potassium).',
@@ -68,8 +68,8 @@ var thaiGroceries = {
     weight: '8.11 oz',
     price: '7.95'
   },
-  'Thai Sweet Chilli Sauce': {
-    product: 'Thai Sweet Chilli Sauce',
+  'thai sweet chilli sauce': {
+    product: 'thai sweet chilli sauce',
     brand: 'Mae Ploy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Sugar, water, pickled red chilli, vinegar, garlic, salt, xanthan gum. No preservatives and no artificial coloring. Product of Thailand.',
@@ -79,8 +79,8 @@ var thaiGroceries = {
     weight: '10 oz',
     price: '4.40'
   },
-  'Soy sauce, thin (light)': {
-    product: 'Soy sauce, thin (light)',
+  'soy sauce, thin light': {
+    product: 'soy sauce, thin light',
     brand: 'Healthy Boy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Soy bean, wheat, salt, sugar, msg, preservatives 0.1%, artificial color.',
@@ -90,16 +90,16 @@ var thaiGroceries = {
     weight: '10 oz',
     price: '5.29'
   },
-  'Sriracha Sauce': (_SrirachaSauce = {
-    product: 'Sriracha Sauce',
+  'sriracha sauce': (_srirachaSauce = {
+    product: 'sriracha sauce',
     brand: 'Huy Fong',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Chile, sugar, garlic, salt, distilled vinegar, potassium sorbate and sodium bisulfite as preservatives, and xanthan gum.',
     image: 'https://importfood.com/media/zoo/images/sriracha-huy-fong-large_3c11d8fcd39a218072394db060cdbbcc.jpg',
     imageCredit: 'ImportFood Thai Supermarket'
-  }, _defineProperty(_SrirachaSauce, "imageCredit", 'Brand: Chaokoh'), _defineProperty(_SrirachaSauce, "size", '13.5 oz'), _defineProperty(_SrirachaSauce, "weight", '17 oz'), _defineProperty(_SrirachaSauce, "price", '4.29'), _SrirachaSauce),
-  'Mushroom Soy Sauce': {
-    product: 'Mushroom Soy Sauce',
+  }, _defineProperty(_srirachaSauce, "imageCredit", 'Brand: Chaokoh'), _defineProperty(_srirachaSauce, "size", '13.5 oz'), _defineProperty(_srirachaSauce, "weight", '17 oz'), _defineProperty(_srirachaSauce, "price", '4.29'), _srirachaSauce),
+  'mushroom soy sauce': {
+    product: 'mushroom soy sauce',
     brand: 'Healthy Boy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Soybean, mushroom, salt water, wheat flour, sugar, sodium benzoate 0.1% as preservative.',
