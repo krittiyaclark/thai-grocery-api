@@ -110,7 +110,7 @@ var thaiGroceries = {
     brand: 'Healthy Boy',
     info: 'PREMIUM QUALITY COCONUTS - Our creamy coconut milk is extracted from the pulp of mature coconuts which are ethically sourced from sustainable growers and have passed strict quality control inspections to ensure high quality.',
     ingredients: 'Soybean, mushroom, salt water, wheat flour, sugar, sodium benzoate 0.1% as preservative.',
-    image: 'https://m.media-amazon.com/images/I/91b8GD56iaL._SL1500_.jpg',
+    image: 'https://m.media-amazon.com/images/I/71NuBVEABfS._SY606_.jpg',
     imageCredit: 'Brand: Chaokoh',
     size: '13.5 oz',
     weight: '23.5 oz',
@@ -142,7 +142,7 @@ app.get('/api/thai-grocery-product/:thaiGroceriesItemName', function (request, r
   var thaiGroceriesItem = request.params.thaiGroceriesItemName;
 
   if (!groceryStore[thaiGroceriesItem]) {
-    response.json(groceryStore['unknown']);
+    return response.json(groceryStore['unknown']);
   }
 
   return response.json(groceryStore[thaiGroceriesItem]);
