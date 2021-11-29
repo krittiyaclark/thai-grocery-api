@@ -162,7 +162,7 @@ app.get(
 
 // All Thai Groceries
 app.get('/api/thai-grocery-product', (request, response) => {
-	return response.json(thaiGroceries)
+	return response.json(groceryStore)
 })
 
 // process.env.PORT for Heroku

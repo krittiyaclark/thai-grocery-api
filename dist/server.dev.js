@@ -149,7 +149,7 @@ app.get('/api/thai-grocery-product/:thaiGroceriesItemName', function (request, r
 }); // All Thai Groceries
 
 app.get('/api/thai-grocery-product', function (request, response) {
-  return response.json(thaiGroceries);
+  return response.json(groceryStore);
 }); // process.env.PORT for Heroku
 
 app.listen(process.env.PORT || PORT, function () {
