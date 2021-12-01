@@ -19,7 +19,7 @@ api/thai-grocery-product/:thaiGroceriesItemName
 index path to the base url e.g.
 
 ```
-https://thai-grocery-api.herokuapp.com/api/thai-grocery-product/product
+https://thai-grocery-api.herokuapp.com/api/thai-grocery-product
 ```
 
 JSON
