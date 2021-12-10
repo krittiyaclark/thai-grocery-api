@@ -14,7 +14,7 @@ let thaiGroceries = {
 		ingredients:
 			'coconut extract, water, citric acid (as antioxidant), sodium metabisulfite (as perservative). Unsweetened.',
 		image: 'https://m.media-amazon.com/images/I/91b8GD56iaL._SL1500_.jpg',
-		productSource: 'brand: chaokoh',
+		productSource: 'brand chaokoh',
 		buyProduct:
 			'https://www.amazon.com/Chaokoh-Coconut-Milk-13-5-Ounce/dp/B00G9Y9MC8/ref=sr_1_19?keywords=Thai+Coconut+Milk&qid=1639156398&sr=8-19',
 		size: '13.5 oz',
@@ -28,7 +28,7 @@ let thaiGroceries = {
 		ingredients:
 			'Fresh Chilli Pepper, Garlic, Chinese Ginger, Shallot, Lemongrass, Salt, Sweet Basil, Kaffir Lime, Sugar, Spices (Coriander Seeds, Pepper, Cumin, Cardamom, Turmeric), Galangal, Fresh Coriander.',
 		image: 'https://m.media-amazon.com/images/I/71puhEVfWyL._SL1000_.jpg',
-		productSource: 'brand: maesri',
+		productSource: 'brand maesri',
 		buyProduct:
 			'https://www.amazon.com/Maesri-Green-Curry-Paste-14oz/dp/B007MOYXOG/ref=sr_1_22?keywords=Green+Curry+Paste&qid=1639156681&sr=8-22',
 		size: '14 oz',
@@ -42,7 +42,7 @@ let thaiGroceries = {
 		ingredients:
 			'Lemongrass (24%), Refined Soybean Oil, Shallot, Sugar, Tamarind Paste, Dried Red Chilli, Galangal, Garlic, Salt, Acidity Regulator (Citric Acid (E330)), Fish Sauce (Anchovy, Salt, Water), Flavour Enhancer (Monosodium Glutamate (E621)), Shrimp Powder, Kaffir Lime Peel.',
 		image: 'https://m.media-amazon.com/images/I/81oAOVuswLL._SL1500_.jpg',
-		productSource: 'brand: aroy',
+		productSource: 'brand aroy',
 		buyProduct:
 			'https://www.amazon.com/Tom-Yum-Soup-14oz-Pack/dp/B01BNE3MZQ/ref=sr_1_3?keywords=Tom+Yum+Soup+Brand%3A+Aroy+14+oz&qid=1639157058&sr=8-3',
 		size: '14 oz',
@@ -56,7 +56,7 @@ let thaiGroceries = {
 		ingredients:
 			'Thai curry soup packed with the essence of turmeric, lemongrass, curry powder, bay leaves, and other herbs and spices. Karee curry is influenced by Indian merchants that traveled to Thailand hundreds of years ago.',
 		image: 'https://m.media-amazon.com/images/I/61Q2qxgRtKL._SL1075_.jpg',
-		productSource: 'brand: maeSri',
+		productSource: 'brand maeSri',
 		buyProduct:
 			'https://www.amazon.com/Maesri-Red-Curry-Paste-14oz/dp/B007MOTZN0/ref=sr_1_13?keywords=Red+Curry+Soup&qid=1639157397&sr=8-13',
 		size: '14 oz',
