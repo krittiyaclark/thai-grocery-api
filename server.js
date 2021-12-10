@@ -14,7 +14,9 @@ let thaiGroceries = {
 		ingredients:
 			'coconut extract, water, citric acid (as antioxidant), sodium metabisulfite (as perservative). Unsweetened.',
 		image: 'https://m.media-amazon.com/images/I/91b8GD56iaL._SL1500_.jpg',
-		imageCredit: 'Brand: Chaokoh',
+		productSource: 'brand: chaokoh',
+		buyProduct:
+			'https://www.amazon.com/Chaokoh-Coconut-Milk-13-5-Ounce/dp/B00G9Y9MC8/ref=sr_1_19?keywords=Thai+Coconut+Milk&qid=1639156398&sr=8-19',
 		size: '13.5 oz',
 		weight: '13.5 Ounces',
 		price: '3.50',
@@ -26,10 +28,12 @@ let thaiGroceries = {
 		ingredients:
 			'Fresh Chilli Pepper, Garlic, Chinese Ginger, Shallot, Lemongrass, Salt, Sweet Basil, Kaffir Lime, Sugar, Spices (Coriander Seeds, Pepper, Cumin, Cardamom, Turmeric), Galangal, Fresh Coriander.',
 		image: 'https://m.media-amazon.com/images/I/71puhEVfWyL._SL1000_.jpg',
-		imageCredit: 'Brand: Maesri',
+		productSource: 'brand: maesri',
+		buyProduct:
+			'https://www.amazon.com/Maesri-Green-Curry-Paste-14oz/dp/B007MOYXOG/ref=sr_1_22?keywords=Green+Curry+Paste&qid=1639156681&sr=8-22',
 		size: '14 oz',
 		weight: '7.7 oz',
-		price: '3.99',
+		price: '8.46',
 	},
 	'tom yum soup': {
 		product: 'tom yum soup',
@@ -38,7 +42,9 @@ let thaiGroceries = {
 		ingredients:
 			'Lemongrass (24%), Refined Soybean Oil, Shallot, Sugar, Tamarind Paste, Dried Red Chilli, Galangal, Garlic, Salt, Acidity Regulator (Citric Acid (E330)), Fish Sauce (Anchovy, Salt, Water), Flavour Enhancer (Monosodium Glutamate (E621)), Shrimp Powder, Kaffir Lime Peel.',
 		image: 'https://m.media-amazon.com/images/I/81oAOVuswLL._SL1500_.jpg',
-		imageCreadit: 'Brand: Aroy-D',
+		productSource: 'brand: aroy',
+		buyProduct:
+			'https://www.amazon.com/Tom-Yum-Soup-14oz-Pack/dp/B01BNE3MZQ/ref=sr_1_3?keywords=Tom+Yum+Soup+Brand%3A+Aroy+14+oz&qid=1639157058&sr=8-3',
 		size: '14 oz',
 		weight: '13.5 Ounces',
 		price: '5.39',
@@ -50,10 +56,12 @@ let thaiGroceries = {
 		ingredients:
 			'Thai curry soup packed with the essence of turmeric, lemongrass, curry powder, bay leaves, and other herbs and spices. Karee curry is influenced by Indian merchants that traveled to Thailand hundreds of years ago.',
 		image: 'https://m.media-amazon.com/images/I/61Q2qxgRtKL._SL1075_.jpg',
-		imageCreadit: 'Brand: Maesri',
+		productSource: 'brand: maeSri',
+		buyProduct:
+			'https://www.amazon.com/Maesri-Red-Curry-Paste-14oz/dp/B007MOTZN0/ref=sr_1_13?keywords=Red+Curry+Soup&qid=1639157397&sr=8-13',
 		size: '14 oz',
 		weight: '7.7 oz',
-		price: '3.99',
+		price: '8.46',
 	},
 	'koh kae peanut snack coconut flavor': {
 		product: 'koh kae peanut snack coconut flavor',
@@ -63,7 +71,9 @@ let thaiGroceries = {
 			' Original Coconut Flavor: peanuts, wheat flour, sugar, coconut oil, iodized salt, coconut cream, sweetened condensed creamer, rising agent ammonium bicarbonate, sweetener (acesulfame potassium).',
 		image:
 			'https://importfood.com/media/zoo/images/koh-kae-orig-large_ed2bcb022f9cb4fe45486804f4ac24fb.jpg',
-		imageCredit: 'ImportFood Thai Supermarket',
+		productSource: 'ImportFood Thai Supermarket',
+		buyProduct:
+			'https://importfood.com/products/assorted-thai-grocery/item/koh-kae-peanut-snack',
 		size: '8.11oz',
 		weight: '8.11 oz',
 		price: '7.95',
@@ -76,7 +86,9 @@ let thaiGroceries = {
 			'Sugar, water, pickled red chilli, vinegar, garlic, salt, xanthan gum. No preservatives and no artificial coloring. Product of Thailand.',
 		image:
 			'https://importfood.com/media/zoo/images/mae-ploy-sweet-chilli-large_5c70f1c60cfa0cac7934676612295401.jpg',
-		imageCredit: 'ImportFood Thai Supermarket',
+		productSource: 'ImportFood Thai Supermarket',
+		buyProduct:
+			'https://importfood.com/products/thai-sauces-condiments/item/thai-sweet-chilli-sauce-mae-ploy',
 		size: '13.5 oz',
 		weight: '10 oz',
 		price: '4.40',
@@ -89,7 +101,9 @@ let thaiGroceries = {
 			'Soy bean, wheat, salt, sugar, msg, preservatives 0.1%, artificial color.',
 		image:
 			'https://importfood.com/media/zoo/images/healthy-boy-thin-large_6df1cc2cfeb6b334df1f2809f5038d82.jpg',
-		imageCredit: 'ImportFood Thai Supermarket',
+		productSource: 'ImportFood Thai Supermarket',
+		buyProduct:
+			'https://importfood.com/products/thai-sauces-condiments/item/soy-sauce-thin-light-healthy-boy-10-oz',
 		size: '13.5 oz',
 		weight: '10 oz',
 		price: '5.29',
@@ -102,8 +116,9 @@ let thaiGroceries = {
 			'Chile, sugar, garlic, salt, distilled vinegar, potassium sorbate and sodium bisulfite as preservatives, and xanthan gum.',
 		image:
 			'https://importfood.com/media/zoo/images/sriracha-huy-fong-large_3c11d8fcd39a218072394db060cdbbcc.jpg',
-		imageCredit: 'ImportFood Thai Supermarket',
-		imageCredit: 'Brand: Chaokoh',
+		productSource: 'ImportFood Thai Supermarket',
+		buyProduct:
+			'https://importfood.com/index.php?option=com_zoo&task=item&item_id=2734&Itemid=189',
 		size: '13.5 oz',
 		weight: '17 oz',
 		price: '4.29',
@@ -116,7 +131,9 @@ let thaiGroceries = {
 			'Soybean, mushroom, salt water, wheat flour, sugar, sodium benzoate 0.1% as preservative.',
 		image:
 			'https://importfood.com/media/zoo/images/mushroom-soy-sauce-healthy-boy_6bcc65e09468500f3eb98a8c0562fb04.jpg',
-		imageCredit: 'Brand: Chaokoh',
+		productSource: 'Brand: Chaokoh',
+		buyProduct:
+			'https://importfood.com/products/thai-sauces-condiments/item/mushroom-soy-sauce-healthy-boy',
 		size: '13.5 oz',
 		weight: '23.5 oz',
 		price: '9.89',
@@ -128,6 +145,8 @@ let thaiGroceries = {
 		ingredients: 'unknown',
 		image: 'unknown',
 		imageCreadit: 'unknown',
+		productSource: 'unknown',
+		buyProduct: 'unknown',
 		size: 'unknown',
 		weight: 'unknown',
 		price: 'unknown',
